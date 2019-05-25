@@ -1,0 +1,1 @@
+SELECT all name as programmers_name, COUNT(DISTINCT user_id) as jumlah_skill FROM skills INNER JOIN users ON skills.user_id=users.id_user 
